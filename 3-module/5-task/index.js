@@ -10,7 +10,7 @@ function getMinMax(str) {
 
   let workArray = str.split(' ');
 
-  // Seek for first workArray_element === Number and assign it to both min and max :
+  // Seek for first workArray_element === type:Number and assign it to both min and max :
 
   for (j = 0; j < workArray.length; j++) {
 
