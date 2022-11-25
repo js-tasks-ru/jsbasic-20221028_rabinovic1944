@@ -1,6 +1,5 @@
 function highlight(table) {
 
-
   let tableBodyRows = table.children[1].children;
   let counter = table.rows.length - 2;
   
