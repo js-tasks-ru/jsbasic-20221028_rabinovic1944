@@ -1,8 +1,8 @@
 function initCarousel() {
 
 
-  let leftArrowButton = document.querySelector('.carousel__arrow_left');
-  let rightArrowButton = document.querySelector('.carousel__arrow_right');
+  let leftArrowButton = document.querySelector('.carousel__arrow_right');
+  let rightArrowButton = document.querySelector('.carousel__arrow_left');
   let slideNumberDisplayed = 0;
   
   checkButtons();
@@ -27,17 +27,17 @@ function initCarousel() {
       }
       switch(slideNumberDisplayed) {
         case 1:
-          document.querySelector('.carousel__inner').style.transform = 'translateX(-988px)'; 
+          document.querySelector('.carousel__inner').style.transform = 'translateX(-500px)'; 
           checkButtons();
           break
       
         case 2:  
-          document.querySelector('.carousel__inner').style.transform = 'translateX(-1976px)'; 
+          document.querySelector('.carousel__inner').style.transform = 'translateX(-1000px)'; 
           checkButtons();
           break;
 
         case 3:  
-          document.querySelector('.carousel__inner').style.transform = 'translateX(-2964px)';
+          document.querySelector('.carousel__inner').style.transform = 'translateX(-1500px)';
           checkButtons();
           break;
       
@@ -65,7 +65,7 @@ function initCarousel() {
         
           case 2:  
 
-          document.querySelector('.carousel__inner').style.transform = 'translateX(-988px)';
+          document.querySelector('.carousel__inner').style.transform = 'translateX(-500px)';
 
           if (slideNumberDisplayed > 0) {slideNumberDisplayed--;checkButtons();}
           else {slideNumberDisplayed = 0;
@@ -76,7 +76,7 @@ function initCarousel() {
 
             case 3: 
 
-            document.querySelector('.carousel__inner').style.transform = 'translateX(-1976px)'; 
+            document.querySelector('.carousel__inner').style.transform = 'translateX(-1000px)'; 
 
             if (slideNumberDisplayed > 0) {slideNumberDisplayed--;checkButtons();}
             else {slideNumberDisplayed = 0;
