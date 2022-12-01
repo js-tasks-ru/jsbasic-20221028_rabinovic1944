@@ -36,7 +36,7 @@
   <script type="module">
     import UserTable from './index.js';
 
-    let rows = [
+   /*  let rows = [
       {
         name: 'Ilia',
         age: 25,
@@ -61,11 +61,28 @@
         salary: 990,
         city: 'Chita'
       }
+    ]; */
+
+    let rows = [
+      {
+        name: 'Вася',
+        age: 25,
+        salary: 1000,
+        city: 'Самара'
+      },
+      {
+        name: 'Петя',
+        age: 30,
+        salary: 1500,
+        city: 'Москва'
+      }
     ];
 
     let table = new UserTable(rows);
     document.body.append(table.elem);
-
+    
+    
+    
   </script>
 </body>
 
